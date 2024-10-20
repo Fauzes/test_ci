@@ -1,0 +1,22 @@
+Start testing: Oct 20 23:13 MSK
+----------------------------------------------------------
+5/5 Testing: Test5
+5/5 Test: Test5
+Command: "/home/dima/Projects/edu/test_ci/build/bin/test5"
+Directory: /home/dima/Projects/edu/test_ci/build/build/test
+"Test5" start time: Oct 20 23:13 MSK
+Output:
+----------------------------------------------------------
+Running 1 test case...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Test5" end time: Oct 20 23:13 MSK
+"Test5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 23:13 MSK

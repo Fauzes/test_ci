@@ -1,0 +1,24 @@
+Start testing: Oct 20 00:25 MSK
+----------------------------------------------------------
+2/2 Testing: Test2
+2/2 Test: Test2
+Command: "/home/dima/Projects/edu/test_ci/build/bin/test2"
+Directory: /home/dima/Projects/edu/test_ci/build/build/test
+"Test2" start time: Oct 20 00:25 MSK
+Output:
+----------------------------------------------------------
+Running 1 test case...
+unknown location(0): [4;31;49mfatal error: in "Solver_test/solver_2_test": memory access violation at address: 0x8: no mapping at fault address[0;39;49m
+/home/dima/Projects/edu/test_ci/test/test_solver_2.cpp(17): [1;36;49mlast checkpoint[0;39;49m
+
+[1;31;49m*** 1 failure is detected in the test module "Solving_quadratic_equation"
+[0;39;49m
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"Test2" end time: Oct 20 00:25 MSK
+"Test2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 00:25 MSK
