@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241019-1807-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="dima-VMware-Virtual-Platform"
+	OSRelease="6.8.0-45-generic"
+	OSVersion="#45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="10240"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="1919"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2496"
+	>
+	<Testing>
+		<StartDateTime>Oct 20 02:00 MSK</StartDateTime>
+		<StartTestTime>1729378816</StartTestTime>
+		<TestList>
+			<Test>./build/test/Test4</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>Test4</Name>
+			<Path>./build/test</Path>
+			<FullName>./build/test/Test4</FullName>
+			<FullCommandLine>/home/dima/Projects/edu/test_ci/build/bin/test4</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>201</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0939026</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/dima/Projects/edu/test_ci/build/bin/test4</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxNkLFOxDAMhve8wi1WJ+jQXHVdLhXvgGC8IQqJuTNqkpI4Jx6ftAHBZFv27/+zX0oIFK4wAmNmsCbjMAyCwt0s5MDAExyFvEWP0pE38jnFD7ScJboiN4m2tMdW5LjcMelpsOv6ME6PCg6XcT6N83T2mFJMCihA99rGdt2vZK86BfhlcWWKATI7pX5ItEnX4jFw7a8VAB28FYYQGZKhjO5wOc6n8+YjxJ9n3/f1tHdDS0kIlMEhN3XF4Bu2q310ZcGGVZ+hP4txyTBZjTXdWDrxb/83cn5oWQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 20 02:00 MSK</EndDateTime>
+		<EndTestTime>1729378816</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
