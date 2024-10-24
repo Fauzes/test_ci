@@ -1,0 +1,24 @@
+Start testing: Oct 20 02:00 MSK
+----------------------------------------------------------
+4/4 Testing: Test4
+4/4 Test: Test4
+Command: "/home/dima/Projects/edu/test_ci/build/bin/test4"
+Directory: /home/dima/Projects/edu/test_ci/build/build/test
+"Test4" start time: Oct 20 02:00 MSK
+Output:
+----------------------------------------------------------
+Running 1 test case...
+invalid a = 0
+/home/dima/Projects/edu/test_ci/test/test_solver_4.cpp(14): [1;31;49merror: in "Solver_test/solver_4_test": exception std::invalid_argument expected but not raised[0;39;49m
+
+[1;31;49m*** 1 failure is detected in the test module "Solving_quadratic_equation"
+[0;39;49m
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"Test4" end time: Oct 20 02:00 MSK
+"Test4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 02:00 MSK
