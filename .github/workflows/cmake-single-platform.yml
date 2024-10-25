@@ -27,8 +27,21 @@ jobs:
       run: sudo apt-get update && sudo apt-get install libboost-all-dev
 
       #install cmake
-    - name: install cmake
-      run: sudo apt-get install g++11 lp-solve libopenblas-dev
+   # - name: install cmake
+    #  run: sudo apt-get install g++11 lp-solve libopenblas-dev
+
+    - name: Create Build Directory
+      run: cmake -E make_directory ${{github.workspace}}/build
+
+    - name: Install Packages
+      run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y gcc-multilib python3 curl zip unzip
+          sudo apt-get install -y --no-install-recommends libx11-dev libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev libxext-dev libxfixes-dev libgl1-mesa-dev
+
+    - name: Configure CMake
+      run: cmake -H. -Bbuild -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DENABLE_COVERAGE=On
+
 
     #- name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
@@ -38,6 +51,7 @@ jobs:
     - name: Build
       # Build your program with the given configuration
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+      #run: cmake --build build --config Debug --target Catch_tests_run
 
     - name: Test
       working-directory: ${{github.workspace}}/build
