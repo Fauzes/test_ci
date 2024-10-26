@@ -26,6 +26,9 @@ jobs:
     - name: boost
       run: sudo apt-get update && sudo apt-get install libboost-all-dev
 
+    - name: clear cmake
+      run: cmake --target clean
+
       #install cmake
    # - name: install cmake
     #  run: sudo apt-get install g++11 lp-solve libopenblas-dev
