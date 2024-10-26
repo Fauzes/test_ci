@@ -14,7 +14,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.5"
 					},
 					"projectIndex" : 0,
 					"source" : "."
@@ -24,7 +24,7 @@
 					"jsonFile" : "directory-build.src-Debug-e7e6941f0fbac224c4e2.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.5"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
@@ -39,7 +39,7 @@
 					"jsonFile" : "directory-build.test-Debug-6c73e9f3c6ac93b3a1c6.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.5"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 2,
@@ -103,42 +103,42 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "solver::@1f2133f60341753f7993",
-					"jsonFile" : "target-solver-Debug-891af46c869cbc8cfa2b.json",
+					"jsonFile" : "target-solver-Debug-874415b6201bfe14b822.json",
 					"name" : "solver",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test1::@6569e3db0372c2ce7aa2",
-					"jsonFile" : "target-test1-Debug-ebc88ed431fd01c739f7.json",
+					"jsonFile" : "target-test1-Debug-8f45d49c3876ca78f2d6.json",
 					"name" : "test1",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test2::@6569e3db0372c2ce7aa2",
-					"jsonFile" : "target-test2-Debug-c9997c31db6e0314dd50.json",
+					"jsonFile" : "target-test2-Debug-96da761ed5c4a19ea73f.json",
 					"name" : "test2",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test3::@6569e3db0372c2ce7aa2",
-					"jsonFile" : "target-test3-Debug-a16728dfc8586a8b64bd.json",
+					"jsonFile" : "target-test3-Debug-6a3e08a9acd3dd69ede5.json",
 					"name" : "test3",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test4::@6569e3db0372c2ce7aa2",
-					"jsonFile" : "target-test4-Debug-0a034d565632ca2ac3a6.json",
+					"jsonFile" : "target-test4-Debug-e135a5607ba1cda400b9.json",
 					"name" : "test4",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "test5::@6569e3db0372c2ce7aa2",
-					"jsonFile" : "target-test5-Debug-909bea2b714f43987321.json",
+					"jsonFile" : "target-test5-Debug-7058025a9722fce561fd.json",
 					"name" : "test5",
 					"projectIndex" : 2
 				}

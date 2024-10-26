@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_N
 
 CXX_INCLUDES = -I/home/dima/Projects/edu/test_ci/include
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=gnu++11
 
