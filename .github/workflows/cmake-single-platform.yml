@@ -28,7 +28,7 @@ jobs:
 
     #clear build
     - name: clear build dir
-      run: rm build
+      run: rm ${{github.workspace}}/build
 
     - name: Create Build Directory
       run: cmake -E make_directory ${{github.workspace}}/build
